@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CustomActionSheet.h"
 
-@interface ViewController : UIViewController
-
-
+@interface ViewController : UIViewController<CustomActionSheetDelegate>
+- (IBAction)slideActionSheet:(id)sender;
 @end
 

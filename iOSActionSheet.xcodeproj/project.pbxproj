@@ -10,10 +10,18 @@
 		94980C271B6CAF0600E91069 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94980C261B6CAF0600E91069 /* main.m */; };
 		94980C2A1B6CAF0600E91069 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94980C291B6CAF0600E91069 /* AppDelegate.m */; };
 		94980C2D1B6CAF0600E91069 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94980C2C1B6CAF0600E91069 /* ViewController.m */; };
-		94980C301B6CAF0600E91069 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94980C2E1B6CAF0600E91069 /* Main.storyboard */; };
 		94980C321B6CAF0600E91069 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94980C311B6CAF0600E91069 /* Images.xcassets */; };
-		94980C351B6CAF0600E91069 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94980C331B6CAF0600E91069 /* LaunchScreen.xib */; };
 		94980C411B6CAF0600E91069 /* iOSActionSheetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94980C401B6CAF0600E91069 /* iOSActionSheetTests.m */; };
+		94980C531B6CB36E00E91069 /* ActionSheetItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 94980C4D1B6CB36E00E91069 /* ActionSheetItem.m */; };
+		94980C541B6CB36E00E91069 /* CustomActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 94980C4E1B6CB36E00E91069 /* CustomActionSheet.m */; };
+		94980C551B6CB36E00E91069 /* CustomActionSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94980C4F1B6CB36E00E91069 /* CustomActionSheet.xib */; };
+		94980C561B6CB36E00E91069 /* CustomActionSheetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94980C511B6CB36E00E91069 /* CustomActionSheetCell.xib */; };
+		94980C571B6CB36E00E91069 /* CustomActionSheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94980C521B6CB36E00E91069 /* CustomActionSheetCell.m */; };
+		94980C5B1B6CB7C600E91069 /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 94980C581B6CB7C600E91069 /* cat.png */; };
+		94980C5C1B6CB7C600E91069 /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 94980C591B6CB7C600E91069 /* dog.png */; };
+		94980C5D1B6CB7C600E91069 /* wolf.png in Resources */ = {isa = PBXBuildFile; fileRef = 94980C5A1B6CB7C600E91069 /* wolf.png */; };
+		94980C5F1B6CBCF500E91069 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94980C5E1B6CBCF500E91069 /* ViewController.xib */; };
+		94980C611B6CBE8A00E91069 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94980C601B6CBE8A00E91069 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +42,23 @@
 		94980C291B6CAF0600E91069 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		94980C2B1B6CAF0600E91069 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		94980C2C1B6CAF0600E91069 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		94980C2F1B6CAF0600E91069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94980C311B6CAF0600E91069 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		94980C341B6CAF0600E91069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		94980C3A1B6CAF0600E91069 /* iOSActionSheetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSActionSheetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94980C3F1B6CAF0600E91069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94980C401B6CAF0600E91069 /* iOSActionSheetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSActionSheetTests.m; sourceTree = "<group>"; };
+		94980C4B1B6CB36E00E91069 /* CustomActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomActionSheet.h; sourceTree = "<group>"; };
+		94980C4C1B6CB36E00E91069 /* ActionSheetItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetItem.h; sourceTree = "<group>"; };
+		94980C4D1B6CB36E00E91069 /* ActionSheetItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetItem.m; sourceTree = "<group>"; };
+		94980C4E1B6CB36E00E91069 /* CustomActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomActionSheet.m; sourceTree = "<group>"; };
+		94980C4F1B6CB36E00E91069 /* CustomActionSheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomActionSheet.xib; sourceTree = "<group>"; };
+		94980C501B6CB36E00E91069 /* CustomActionSheetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomActionSheetCell.h; sourceTree = "<group>"; };
+		94980C511B6CB36E00E91069 /* CustomActionSheetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomActionSheetCell.xib; sourceTree = "<group>"; };
+		94980C521B6CB36E00E91069 /* CustomActionSheetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomActionSheetCell.m; sourceTree = "<group>"; };
+		94980C581B6CB7C600E91069 /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		94980C591B6CB7C600E91069 /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
+		94980C5A1B6CB7C600E91069 /* wolf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wolf.png; sourceTree = "<group>"; };
+		94980C5E1B6CBCF500E91069 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		94980C601B6CBE8A00E91069 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +82,7 @@
 		94980C181B6CAF0600E91069 = {
 			isa = PBXGroup;
 			children = (
+				94980C601B6CBE8A00E91069 /* Default-568h@2x.png */,
 				94980C231B6CAF0600E91069 /* iOSActionSheet */,
 				94980C3D1B6CAF0600E91069 /* iOSActionSheetTests */,
 				94980C221B6CAF0600E91069 /* Products */,
@@ -85,10 +105,20 @@
 				94980C291B6CAF0600E91069 /* AppDelegate.m */,
 				94980C2B1B6CAF0600E91069 /* ViewController.h */,
 				94980C2C1B6CAF0600E91069 /* ViewController.m */,
-				94980C2E1B6CAF0600E91069 /* Main.storyboard */,
+				94980C5E1B6CBCF500E91069 /* ViewController.xib */,
 				94980C311B6CAF0600E91069 /* Images.xcassets */,
-				94980C331B6CAF0600E91069 /* LaunchScreen.xib */,
 				94980C241B6CAF0600E91069 /* Supporting Files */,
+				94980C4C1B6CB36E00E91069 /* ActionSheetItem.h */,
+				94980C4D1B6CB36E00E91069 /* ActionSheetItem.m */,
+				94980C4B1B6CB36E00E91069 /* CustomActionSheet.h */,
+				94980C4E1B6CB36E00E91069 /* CustomActionSheet.m */,
+				94980C4F1B6CB36E00E91069 /* CustomActionSheet.xib */,
+				94980C501B6CB36E00E91069 /* CustomActionSheetCell.h */,
+				94980C521B6CB36E00E91069 /* CustomActionSheetCell.m */,
+				94980C511B6CB36E00E91069 /* CustomActionSheetCell.xib */,
+				94980C581B6CB7C600E91069 /* cat.png */,
+				94980C591B6CB7C600E91069 /* dog.png */,
+				94980C5A1B6CB7C600E91069 /* wolf.png */,
 			);
 			path = iOSActionSheet;
 			sourceTree = "<group>";
@@ -199,8 +229,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94980C301B6CAF0600E91069 /* Main.storyboard in Resources */,
-				94980C351B6CAF0600E91069 /* LaunchScreen.xib in Resources */,
+				94980C5C1B6CB7C600E91069 /* dog.png in Resources */,
+				94980C5F1B6CBCF500E91069 /* ViewController.xib in Resources */,
+				94980C5B1B6CB7C600E91069 /* cat.png in Resources */,
+				94980C551B6CB36E00E91069 /* CustomActionSheet.xib in Resources */,
+				94980C5D1B6CB7C600E91069 /* wolf.png in Resources */,
+				94980C611B6CBE8A00E91069 /* Default-568h@2x.png in Resources */,
+				94980C561B6CB36E00E91069 /* CustomActionSheetCell.xib in Resources */,
 				94980C321B6CAF0600E91069 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +254,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94980C541B6CB36E00E91069 /* CustomActionSheet.m in Sources */,
 				94980C2D1B6CAF0600E91069 /* ViewController.m in Sources */,
+				94980C571B6CB36E00E91069 /* CustomActionSheetCell.m in Sources */,
 				94980C2A1B6CAF0600E91069 /* AppDelegate.m in Sources */,
+				94980C531B6CB36E00E91069 /* ActionSheetItem.m in Sources */,
 				94980C271B6CAF0600E91069 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,25 +280,6 @@
 			targetProxy = 94980C3B1B6CAF0600E91069 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		94980C2E1B6CAF0600E91069 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				94980C2F1B6CAF0600E91069 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		94980C331B6CAF0600E91069 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				94980C341B6CAF0600E91069 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		94980C421B6CAF0600E91069 /* Debug */ = {
