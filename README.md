@@ -1,3 +1,7 @@
+# iOS ActionSheet
+A rich actionsheet customized by UITableView.<br/>
+It has good compatibility in iOS8 and later version.
+<p align="center"><a src="https://github.com/KarenChangCC/iOSActionSheet/blob/master/iOSActionSheet/Screenshot1.png" target="_blank"><img src="https://github.com/KarenChangCC/iOSActionSheet/blob/master/iOSActionSheet/Screenshot1.png" style="width:30%" /></a></p>
 # How to Use
 <ul>
 <li>implement CustomActionSheetDelegate</li>
