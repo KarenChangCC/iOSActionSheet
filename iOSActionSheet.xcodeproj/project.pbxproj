@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		949672091B92E3C500F1F00D /* Screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = 949672081B92E3C500F1F00D /* Screenshot1.png */; };
 		94980C271B6CAF0600E91069 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94980C261B6CAF0600E91069 /* main.m */; };
 		94980C2A1B6CAF0600E91069 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94980C291B6CAF0600E91069 /* AppDelegate.m */; };
 		94980C2D1B6CAF0600E91069 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94980C2C1B6CAF0600E91069 /* ViewController.m */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		949672081B92E3C500F1F00D /* Screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot1.png; sourceTree = "<group>"; };
 		94980C211B6CAF0600E91069 /* iOSActionSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSActionSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94980C251B6CAF0600E91069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94980C261B6CAF0600E91069 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				94980C581B6CB7C600E91069 /* cat.png */,
 				94980C591B6CB7C600E91069 /* dog.png */,
 				94980C5A1B6CB7C600E91069 /* wolf.png */,
+				949672081B92E3C500F1F00D /* Screenshot1.png */,
 			);
 			path = iOSActionSheet;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				949672091B92E3C500F1F00D /* Screenshot1.png in Resources */,
 				94980C5C1B6CB7C600E91069 /* dog.png in Resources */,
 				94980C5F1B6CBCF500E91069 /* ViewController.xib in Resources */,
 				94980C5B1B6CB7C600E91069 /* cat.png in Resources */,
@@ -435,6 +439,7 @@
 				94980C461B6CAF0600E91069 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94980C471B6CAF0600E91069 /* Build configuration list for PBXNativeTarget "iOSActionSheetTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +448,7 @@
 				94980C491B6CAF0600E91069 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
